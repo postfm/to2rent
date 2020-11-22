@@ -21,7 +21,7 @@
     <header class="header">
       <div class="logo logo-header">
         <a class="logo__link" href="#">
-          <img src="./images/logo.svg" alt="logo link" />
+          <img class="logo__image" src="./images/logo.svg" alt="logo link" />
         </a>
       </div>
       <div class="menu">
@@ -152,7 +152,7 @@
     <section class="about">
       <div class="container">
         <div class="about__inners">
-          <div class="about__managers">
+          <div class="about__managers about__item">
             <h4 class="managers__title blog__title">Наши менеджеры</h4>
             <div class="managers__inner">
               <div class="managers__item">
@@ -178,7 +178,7 @@
               </div>
             </div>
           </div>
-          <div class="about__blog">
+          <div class="about__blog about__item">
             <h4 class="blog__title">Блог</h4>
             <ul class="list__links">
               <li class="list__item">
@@ -218,7 +218,7 @@
               </li>
             </ul>
           </div>
-          <div class="about__reviews">
+          <div class="about__reviews about__item">
             <h4 class="blog__title">Отзывы</h4>
             <img class="reviews__image" src="./images/reviews-image.jpg" />
             <p class="reviews__text">
@@ -230,6 +230,48 @@
         </div>
       </div>
     </section>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__top-inner">
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">О нас </a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Дома</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Аппартаменты</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Отзывы</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <form class="footer__form">
+              <label class="footer__label">Связаться с нами</label>
+              <input
+                type="text"
+                class="footer__input"
+                placeholder="Задать вопрос"
+              />
+              <button class="footer__button" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="logo logo-footer">
+        <a class="logo__link" href="#">
+          <img class="logo__image" src="./images/logo.svg" alt="logo link" />
+        </a>
+      </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script
